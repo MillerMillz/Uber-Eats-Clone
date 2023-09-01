@@ -4,6 +4,8 @@ import GooglePlacesAutocomplete, {getLatLng,geocodeByAddress} from "react-google
 import { useAuthContext } from "../../Contexts/AuthContext";
 import axios from "axios";
 import apiRoutes from "../../apiRoutes";
+import default_logo from "../../data/assets/logo/default_logo.png"
+import {Image} from 'antd';
 
 import {useNavigate} from "react-router-dom";
 
@@ -12,6 +14,18 @@ const Settings =() =>{
     const {Restaurant,authUser} = useAuthContext();
     const [restuImage,setRestuImage] =  useState();
     const [response,setResponse] =  useState();
+    const [displayImage,setDisplayImage] =  useState(default_logo);
+    console.log(Restaurant);
+    //
+  
+//restu attributes
+const [name,setName] =  useState();
+const [lat,setLat] =  useState();
+const [lng,setLng] =  useState();
+const [minDeliveryTime,setMinDeliveryTime] =  useState();
+const [maxDeliveryTime,setMaxDeliveryTime] =  useState();
+const [address,setAddress] =  useState();
+const [deliveryFee,setDeliveryFee] =  useState();
    /*  const [address, setAddress] = useState(null);
     const [coordinates,setCoordinates] = useState(null);
  
@@ -22,7 +36,7 @@ const Settings =() =>{
         console.log(latlng);
         setCoordinates(latlng)
     } */
-    const onSubmit = ({name,lat,lng,minDeliveryTime,maxDeliveryTime,deliveryFee,address}) =>{
+    const onSubmit = ({}) =>{
 
         const formData = new FormData();
         formData.append("name",name);
@@ -37,13 +51,33 @@ const Settings =() =>{
         formData.append("adminID",authUser.id);
         console.log(Restaurant);
         console.log(formData);
-        axios.post(apiRoutes.AddRestuarant,formData).then((Result)=>{ setResponse(Result.data);});
+        if(Restaurant)
+        {
+            formData.append("id",Restaurant.id);
+            axios.post(apiRoutes.EditRestuarant,formData).then((Result)=>{ setResponse(Result.data);});
+        }
+        else
+        {
+             axios.post(apiRoutes.AddRestuarant,formData).then((Result)=>{ setResponse(Result.data);});
+        }
         
        
     }
     const updateImage = e =>{
+        const reader = new FileReader();
+        reader.onload = x =>{
+           setDisplayImage(x.target.result);
+        }
+        reader.readAsDataURL(e.target.files[0])
         setRestuImage(e.target.files[0]);
     }
+
+    useEffect(()=>{
+        if(Restaurant)
+        {
+            setDisplayImage(Restaurant.imageSource)
+        }
+    },[]);
     useEffect(()=>{
     if(response==="Success")
             {
@@ -56,31 +90,34 @@ const Settings =() =>{
     return(<Card title="Restaurant Details" style={{margin:20}}>
         <Form layout="vertical" wrapperCol={{span:8}} onFinish={onSubmit}>
             <div style={{width:'50%',float:"left"}}>
-            <Form.Item label="Restaurant Name" name="name" required>
-                <Input placeholder="Enter Restaurant name here" value={Restaurant?.name}/>
+            <Form.Item label="Restaurant Name" required>
+                <Input placeholder="Enter Restaurant name here" onChange={(e)=>{setName(e.target.value)}} value={Restaurant?.name}/>
             </Form.Item>
-            <Form.Item label="Select Restuarant Image" name="image" required>
-                <Input type="file" onChange={updateImage} />
+           
+            <Form.Item label="Latitude"  required>
+                <InputNumber onChange={(e)=>{setLat(e.target.value)}} value={Restaurant?.lat}/>
             </Form.Item>
-            <Form.Item label="Latitude" name="lat" required>
-                <InputNumber value={Restaurant?.lat}/>
+            <Form.Item label="Longitude "  required>
+                <InputNumber onChange={(e)=>{setLng(e.target.value)}} value={Restaurant?.lng}/>
             </Form.Item>
-            <Form.Item label="Longitude " name="lng" required>
-                <InputNumber value={Restaurant?.lng}/>
+            <Form.Item label="Delivery fee " required>
+                <InputNumber onChange={(e)=>{setDeliveryFee(e.target.value)}} value={Restaurant?.deliveryFee}/>
+            </Form.Item> 
+            <Form.Item label="Max Delivery Time"  required>
+                <InputNumber onChange={(e)=>{setMaxDeliveryTime(e.target.value)}} value={Restaurant?.maxDeliveryTime}/>
             </Form.Item>
-            <Form.Item label="Delivery fee " name="deliveryFee" required>
-                <InputNumber value={Restaurant?.deliveryFee}/>
+             <Form.Item label="Min Delivery Time"  required>
+                <InputNumber onChange={setMinDeliveryTime} value={Restaurant?.minDeliveryTime}/>
             </Form.Item>
             </div>
             <div style={{width:'50%',float:"left"}}>
-            <Form.Item label="Min Delivery Time" name="minDeliveryTime" required>
-                <InputNumber value={Restaurant?.minDeliveryTime}/>
+                <Image style={{height: "250px"}} src={displayImage}  preview={false}/>
+            <Form.Item label="Select Restuarant Image" name="image" required>
+                <Input type="file" onChange={updateImage}  />
             </Form.Item>
-            <Form.Item label="Max Delivery Time" name="maxDeliveryTime" required>
-                <InputNumber value={Restaurant?.maxDeliveryTime}/>
-            </Form.Item>
-            <Form.Item label="Address " name="address" required>
-                <Input placeholder="Enter address here" value={Restaurant?.address}/>
+           
+            <Form.Item label="Address " required>
+                <Input placeholder="Enter address here" onChange={(e)=>{setAddress(e.target.value)}} value={Restaurant?.address}/>
             </Form.Item>
             </div>
            {/*  <Form.Item label="Restaurant Address" required> 

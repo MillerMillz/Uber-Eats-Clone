@@ -16,7 +16,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://192.168.0.151:7088;http://localhost:5088",
+      "applicationUrl": "http://192.168.0.153:7088;http://localhost:5088",
       "dotnetRunMessages": true
     },
     "Profile 1": {
