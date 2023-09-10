@@ -7,7 +7,7 @@ namespace UberEatsAPI.Models.CustomModel
         [Key]
         public int id { get; set; }
         public string name { get; set; }
-        public IFormFile image { get; set; }
+        public IFormFile? image { get; set; }
         public double deliveryFee { get; set; }
         public int minDeliveryTime { get; set; }
         public int maxDeliveryTime { get; set; }

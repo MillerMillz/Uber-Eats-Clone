@@ -22,7 +22,7 @@ namespace UberEatsAPI.Controllers
         }
         [HttpPost]
         [Route("AddDish")]
-        public ActionResult<Dish> AddDish([FromForm]DishCustomIn model)
+        public ActionResult<APIResponse<Dish>> AddDish([FromForm]DishCustomIn model)
         {
             Restuarant restuarant = restuarantRepository.GetRestuarantById(model.RestuarantId);
             string uniqueFileName = null;
@@ -50,16 +50,25 @@ namespace UberEatsAPI.Controllers
             
             Dish dishReturn = repository.AddDish(dish);
             dishReturn.imagesource = String.Format("{0}://{1}{2}/{3}", Request.Scheme, Request.Host, Request.PathBase, dishReturn.image);
+            var response = new APIResponse<Dish>() 
+            {
+                Response=dishReturn
+            };
 
-            return Ok(dishReturn);
+            return Ok(response);
         }
         [HttpPost]
         [Route("RemoveDish")]
-        public ActionResult<Dish> RemoveDish(Dish dish)
+        public ActionResult<APIResponse<Dish>> RemoveDish(Dish dish)
         {
             Dish dishReturn = repository.RemoveDish(dish.id);
             dishReturn.imagesource = String.Format("{0}://{1}{2}/{3}", Request.Scheme, Request.Host, Request.PathBase, dishReturn.image);
-            return Ok(dishReturn);
+
+            var response = new APIResponse<Dish>()
+            {
+                Response = dishReturn
+            };
+            return Ok(response);
         }
         [HttpGet]
         [Route("ListRestuDishes/{id}")]

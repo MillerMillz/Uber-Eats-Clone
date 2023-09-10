@@ -60,6 +60,62 @@ namespace UberEatsAPI.Controllers
             return Ok("Success");
 
         }
+        [HttpPost]
+        [Route("EditRestuarant")]
+        public ActionResult<APIResponse<RestuarantCustom>> EditRestuarant([FromForm] RestuarantCustomIn model)
+        {
+            Restuarant edit = repository.GetRestuarantById(model.id); 
+            string serverPath = null;
+            if (model.image != null)
+                {
+                    bool check = System.IO.Directory.Exists(Path.Combine(HostEnvironment.WebRootPath, $"Restuarants/{model.name}/Display"));
+                    if (!check)
+                    {
+                        System.IO.Directory.CreateDirectory(Path.Combine(HostEnvironment.WebRootPath, $"Restuarants/{model.name}/Display"));
+                    }
+                   
+                    string uniqueFileName = null;
+                    string filePath = null;
+                    string uploadsFolder = Path.Combine(HostEnvironment.WebRootPath, $"Restuarants/{model.name}/Display");
+                    uniqueFileName = $"{Guid.NewGuid().ToString()}_{model.image.FileName}";
+                    filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                     serverPath = Path.Combine($"Restuarants/{model.name}/Display", uniqueFileName);
+                     model.image.CopyTo(new FileStream(filePath, FileMode.Create));
+                        
+            }
+
+            edit.address = model.address;
+            edit.adminID = model.adminID;
+            edit.deliveryFee = model.deliveryFee;
+            edit.lat = model.lat;
+            edit.lng = model.lng;
+            edit.maxDeliveryTime = model.maxDeliveryTime;
+            edit.minDeliveryTime = model.minDeliveryTime;
+            edit.name = model.name;
+            edit.rating = model.rating;
+            edit.image = serverPath == null ? edit.image : serverPath;
+            
+            Restuarant ret = repository.UpdateRestuarant(edit);
+            var response = new APIResponse<RestuarantCustom>();
+            response.Response = new RestuarantCustom()
+            {
+                name = ret.name,
+                address = ret.address,
+                adminID = ret.adminID,
+                deliveryFee = ret.deliveryFee,
+                id = ret.id,
+                lat = ret.lat,
+                lng = ret.lng,
+                maxDeliveryTime = ret.maxDeliveryTime,
+                minDeliveryTime = ret.minDeliveryTime,
+                rating = ret.rating,
+                image = ret.image,
+                imageSource = String.Format("{0}://{1}{2}/{3}", Request.Scheme, Request.Host, Request.PathBase, ret.image),
+            };
+
+            return Ok(response);
+
+        }
 
         [HttpGet]
         [Route("ListRestuarants")]

@@ -1,4 +1,4 @@
-const API_URL = "http://192.168.0.153:7088/";
+const API_URL = "http://192.168.0.151:7088/";
 
 module.exports={
     register:API_URL + "api/Auth/Register",
@@ -8,6 +8,7 @@ module.exports={
     getRestuarant:API_URL+"api/Restuarant/GetRestuarant/",
     getRestuarantByAdminID:API_URL+"api/Restuarant/GetRestuarantByAdminID/",
     AddRestuarant:API_URL+"api/Restuarant/AddRestuarant",
+    EditRestuarant:API_URL+"api/Restuarant/EditRestuarant",
     getRestuDishes:API_URL+"api/Dish/ListRestuDishes/",
     getDish:API_URL+"api/Dish/GetDishbyID/",
     getAuthUser:API_URL+"api/Auth/JwtQueryUser/",
