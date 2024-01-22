@@ -21,7 +21,6 @@ const OrderListItem = ({ order }) => {
     }
   },[])
   const onPress = () =>{
-    console.log(order.id);
     navigation.navigate("Order", { id: order.id },);
   };
   

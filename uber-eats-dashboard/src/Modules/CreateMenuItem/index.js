@@ -29,7 +29,6 @@ const CreateMenuItem = () => {
         formData.append('price',price)
         formData.append('image',foodimage)
         formData.append('restuarantId',restaurantId)
-       console.log(formData);
         axios.post(apiRoutes.AddDish,formData).then((result)=>{setResponse(result.data)});
 
     }

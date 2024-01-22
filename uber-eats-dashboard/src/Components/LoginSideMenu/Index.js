@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 const LoginSideMenu = () => {
     const onMenuItemClicked = (menuItem) => {
-        console.log(menuItem)
         navigation(menuItem.key)
     };
     const navigation = useNavigate();

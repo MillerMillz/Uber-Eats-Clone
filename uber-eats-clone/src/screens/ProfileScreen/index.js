@@ -20,17 +20,14 @@ const Profile = () => {
   const onSave = async () => {
     
     if (dbUser?.userID!=null) { 
-      console.warn("Update")
       await updateUser();
     } else {
-      console.warn("create")
        await createUser();
     }
     navigation.goBack();
   };
   const signOut = async () => {
     const signal = await post(apiRoutes.signOut)
-    console.log(signal);
     setAuthUser(null);
     setDbCourier(null);
     navigation.goBack();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rj7ZZOiNJDPBy3XrYZDTbk8LO8FDmyA8aYN4qfEu/wc=",
+  "Hash": "tZpb9qBZqwLb4rl7BBIBS5+YgjPwNQihd+Y2cjv7UBg=",
   "Source": "UberEatsAPI",
   "BasePath": "_content/UberEatsAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "UberEatsAPI\\wwwroot",
       "Source": "UberEatsAPI",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chelsea\\Display\\987a5382-759c-4473-984c-5cc87f2780d2_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chelsea\\Display\\987a5382-759c-4473-984c-5cc87f2780d2_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chelsea/Display/987a5382-759c-4473-984c-5cc87f2780d2_Restu.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chelsea\\Display\\987a5382-759c-4473-984c-5cc87f2780d2_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Display\\Chicken Licken.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Display\\Chicken Licken.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/Display/Chicken Licken.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Display\\Chicken Licken.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Hotwings_24.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Hotwings_24.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/Hotwings_24.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Hotwings_24.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\hotwings-6-deluxe.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\hotwings-6-deluxe.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/hotwings-6-deluxe.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\hotwings-6-deluxe.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\hotwings-meal-8.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\hotwings-meal-8.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/hotwings-meal-8.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\hotwings-meal-8.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\lunch-meal.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\lunch-meal.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/lunch-meal.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\lunch-meal.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Soullicious_FamilyFullHouse6.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Soullicious_FamilyFullHouse6.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/Soullicious_FamilyFullHouse6.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\Soullicious_FamilyFullHouse6.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\SoulmanLoadUp.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\SoulmanLoadUp.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Chicken Licken 4548 Vicsen Rd/SoulmanLoadUp.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Chicken Licken 4548 Vicsen Rd\\SoulmanLoadUp.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\bbq-chicken-wings.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\bbq-chicken-wings.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/bbq-chicken-wings.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\bbq-chicken-wings.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\bbq-chicken-wings.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\bbq-chicken-wings.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/bbq-chicken-wings.webp",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\bbq-chicken-wings.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cheese-garlic-focaccia.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cheese-garlic-focaccia.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/cheese-garlic-focaccia.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cheese-garlic-focaccia.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cheese-garlic-focaccia.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cheese-garlic-focaccia.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/cheese-garlic-focaccia.webp",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cheese-garlic-focaccia.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\chicken-cram_decker.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\chicken-cram_decker.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/chicken-cram_decker.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\chicken-cram_decker.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\chicken-cram_decker.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\chicken-cram_decker.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/chicken-cram_decker.webp",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\chicken-cram_decker.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cocktail-cheese-grillers.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cocktail-cheese-grillers.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/cocktail-cheese-grillers.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cocktail-cheese-grillers.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cocktail-cheese-grillers.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cocktail-cheese-grillers.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/cocktail-cheese-grillers.webp",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\cocktail-cheese-grillers.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\crammed-crust.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\crammed-crust.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/crammed-crust.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\crammed-crust.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\crammed-crust.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\crammed-crust.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/crammed-crust.webp",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\crammed-crust.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\Display\\Debonairs.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\Display\\Debonairs.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/Display/Debonairs.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\Display\\Debonairs.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\Display\\Debonairs.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\Display\\Debonairs.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/Display/Debonairs.webp",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\Display\\Debonairs.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\double-stack.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\double-stack.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/double-stack.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\double-stack.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\double-stack.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\double-stack.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/double-stack.webp",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\double-stack.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\meaty-triple-decker.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\meaty-triple-decker.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/meaty-triple-decker.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\meaty-triple-decker.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\meaty-triple-decker.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Debonairs 32 Richmond st\\meaty-triple-decker.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Debonairs 32 Richmond st/meaty-triple-decker.webp",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Debonairs 32 Richmond st\\meaty-triple-decker.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Dyan\\Display\\c30d999c-9241-49d3-ad7d-bd2ef6eb83c0_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Dyan\\Display\\c30d999c-9241-49d3-ad7d-bd2ef6eb83c0_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Dyan/Display/c30d999c-9241-49d3-ad7d-bd2ef6eb83c0_Restu.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Dyan\\Display\\c30d999c-9241-49d3-ad7d-bd2ef6eb83c0_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\El Cabo Coffe Bar Tres De Mayo\\Display\\KFC.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\El Cabo Coffe Bar Tres De Mayo\\Display\\KFC.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/El Cabo Coffe Bar Tres De Mayo/Display/KFC.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\El Cabo Coffe Bar Tres De Mayo\\Display\\KFC.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\john\\Display\\e0043057-4c91-4254-86aa-d50f8c5e82dc_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\john\\Display\\e0043057-4c91-4254-86aa-d50f8c5e82dc_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/john/Display/e0043057-4c91-4254-86aa-d50f8c5e82dc_Restu.jpg",
       "AssetKind": "All",
@@ -476,10 +476,95 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\john\\Display\\e0043057-4c91-4254-86aa-d50f8c5e82dc_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\34c0a831-d532-43c3-9b44-989ba8c799f9_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 2nd Ave\\Display\\3d66d9dd-a0e9-44a9-8d56-b6c264f78e18_KFC_Wordmark_RGB_Black.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 2nd Ave/Display/3d66d9dd-a0e9-44a9-8d56-b6c264f78e18_KFC_Wordmark_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 2nd Ave\\Display\\3d66d9dd-a0e9-44a9-8d56-b6c264f78e18_KFC_Wordmark_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird cres\\Display\\0e42472d-acaa-4e05-9f22-7f68e583d4af_KFC_Wordmark_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird cres/Display/0e42472d-acaa-4e05-9f22-7f68e583d4af_KFC_Wordmark_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird cres\\Display\\0e42472d-acaa-4e05-9f22-7f68e583d4af_KFC_Wordmark_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird cres\\Display\\3be907ec-5e9c-458a-a976-53966eb75568_KFC_Wordmark_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird cres/Display/3be907ec-5e9c-458a-a976-53966eb75568_KFC_Wordmark_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird cres\\Display\\3be907ec-5e9c-458a-a976-53966eb75568_KFC_Wordmark_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird cres\\Display\\3ed01a39-c5be-4026-9e37-312789849fca_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird cres/Display/3ed01a39-c5be-4026-9e37-312789849fca_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird cres\\Display\\3ed01a39-c5be-4026-9e37-312789849fca_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird s\\Display\\28efd637-a1fc-4370-90db-5e2be53e367c_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird s/Display/28efd637-a1fc-4370-90db-5e2be53e367c_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird s\\Display\\28efd637-a1fc-4370-90db-5e2be53e367c_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\34c0a831-d532-43c3-9b44-989ba8c799f9_10pc McNuggets.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/34c0a831-d532-43c3-9b44-989ba8c799f9_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -493,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\34c0a831-d532-43c3-9b44-989ba8c799f9_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\620e712c-c30b-4660-b13a-39c2ddf5acaa_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\620e712c-c30b-4660-b13a-39c2ddf5acaa_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/620e712c-c30b-4660-b13a-39c2ddf5acaa_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -510,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\620e712c-c30b-4660-b13a-39c2ddf5acaa_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\75c19f29-22af-47d7-9619-f3b8da859c3d_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\75c19f29-22af-47d7-9619-f3b8da859c3d_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/75c19f29-22af-47d7-9619-f3b8da859c3d_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -527,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\75c19f29-22af-47d7-9619-f3b8da859c3d_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\78a1eba7-3ca6-4a6b-b6cb-1b95611d4c94_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\78a1eba7-3ca6-4a6b-b6cb-1b95611d4c94_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/78a1eba7-3ca6-4a6b-b6cb-1b95611d4c94_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -544,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\78a1eba7-3ca6-4a6b-b6cb-1b95611d4c94_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\a1f19ff0-2407-4bde-a44c-f129cd1e5ba7_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\a1f19ff0-2407-4bde-a44c-f129cd1e5ba7_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/a1f19ff0-2407-4bde-a44c-f129cd1e5ba7_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -561,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\a1f19ff0-2407-4bde-a44c-f129cd1e5ba7_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\b0fa7892-8835-47c1-be72-0e7b37b96813_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\b0fa7892-8835-47c1-be72-0e7b37b96813_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/b0fa7892-8835-47c1-be72-0e7b37b96813_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -578,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\b0fa7892-8835-47c1-be72-0e7b37b96813_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\c53814c5-2202-4abc-b0b4-f904bc908157_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\c53814c5-2202-4abc-b0b4-f904bc908157_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/c53814c5-2202-4abc-b0b4-f904bc908157_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -595,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\c53814c5-2202-4abc-b0b4-f904bc908157_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\d64ca46d-a5a7-4778-954f-2ae59e458742_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\d64ca46d-a5a7-4778-954f-2ae59e458742_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/d64ca46d-a5a7-4778-954f-2ae59e458742_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -612,10 +697,27 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\d64ca46d-a5a7-4778-954f-2ae59e458742_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\1251cd15-b9a4-4682-95fb-efcb318f1e6c_Demi1.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\10582166-8880-4d1f-b15a-87cf46650451_KFC_Wordmark_RGB_Red.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/10582166-8880-4d1f-b15a-87cf46650451_KFC_Wordmark_RGB_Red.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\10582166-8880-4d1f-b15a-87cf46650451_KFC_Wordmark_RGB_Red.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\1251cd15-b9a4-4682-95fb-efcb318f1e6c_Demi1.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/Display/1251cd15-b9a4-4682-95fb-efcb318f1e6c_Demi1.jpg",
       "AssetKind": "All",
@@ -629,10 +731,27 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\1251cd15-b9a4-4682-95fb-efcb318f1e6c_Demi1.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\20c64b30-6627-4436-82c3-eea41688d67d_KFC_Wordmark_RGB_Black.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\1c83d953-e214-4241-8ecb-f14336fec0d7_KFC_Wordmark_RGB_White+Rectangle.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/1c83d953-e214-4241-8ecb-f14336fec0d7_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\1c83d953-e214-4241-8ecb-f14336fec0d7_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\20c64b30-6627-4436-82c3-eea41688d67d_KFC_Wordmark_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/Display/20c64b30-6627-4436-82c3-eea41688d67d_KFC_Wordmark_RGB_Black.jpg",
       "AssetKind": "All",
@@ -646,10 +765,95 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\20c64b30-6627-4436-82c3-eea41688d67d_KFC_Wordmark_RGB_Black.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\73276e62-e9da-4bc0-9af1-1a096fc853eb_Demi3.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\238cf18d-0b65-4b43-865e-abb0325426df_KFC_Wordmark_RGB_White+Rectangle.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/238cf18d-0b65-4b43-865e-abb0325426df_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\238cf18d-0b65-4b43-865e-abb0325426df_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\28b7d135-2069-469a-9cc6-0ba1cbe74ee3_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/28b7d135-2069-469a-9cc6-0ba1cbe74ee3_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\28b7d135-2069-469a-9cc6-0ba1cbe74ee3_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\4bc6d5e4-f078-41be-a6c3-f1d3137f9a8a_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/4bc6d5e4-f078-41be-a6c3-f1d3137f9a8a_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\4bc6d5e4-f078-41be-a6c3-f1d3137f9a8a_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\4dc2971a-966d-4063-804f-2c87c6334c9a_KFC_Wordmark_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/4dc2971a-966d-4063-804f-2c87c6334c9a_KFC_Wordmark_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\4dc2971a-966d-4063-804f-2c87c6334c9a_KFC_Wordmark_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\542f8768-c4a4-410b-a4e7-9fe98c952b5e_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/542f8768-c4a4-410b-a4e7-9fe98c952b5e_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\542f8768-c4a4-410b-a4e7-9fe98c952b5e_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\73276e62-e9da-4bc0-9af1-1a096fc853eb_Demi3.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/Display/73276e62-e9da-4bc0-9af1-1a096fc853eb_Demi3.jpg",
       "AssetKind": "All",
@@ -663,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\73276e62-e9da-4bc0-9af1-1a096fc853eb_Demi3.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\7c231554-2520-4f6c-be2a-ae14d53cc24e_Demi4.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\7c231554-2520-4f6c-be2a-ae14d53cc24e_Demi4.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/Display/7c231554-2520-4f6c-be2a-ae14d53cc24e_Demi4.jpg",
       "AssetKind": "All",
@@ -680,10 +884,61 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\7c231554-2520-4f6c-be2a-ae14d53cc24e_Demi4.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\ac8a2908-a5b6-4a11-8567-be4f9bb44438_KFC_Wordmark_RGB_Black.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\7f6463ca-68f1-4038-b017-c8243bb7f5a0_KFC_Wordmark_RGB_Black.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/7f6463ca-68f1-4038-b017-c8243bb7f5a0_KFC_Wordmark_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\7f6463ca-68f1-4038-b017-c8243bb7f5a0_KFC_Wordmark_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\89ddeeec-1cd4-4b4c-b256-a0d8385e83a9_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/89ddeeec-1cd4-4b4c-b256-a0d8385e83a9_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\89ddeeec-1cd4-4b4c-b256-a0d8385e83a9_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\9c4c1a79-880e-4ab3-950d-cf0a0700e7c8_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/9c4c1a79-880e-4ab3-950d-cf0a0700e7c8_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\9c4c1a79-880e-4ab3-950d-cf0a0700e7c8_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\ac8a2908-a5b6-4a11-8567-be4f9bb44438_KFC_Wordmark_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/Display/ac8a2908-a5b6-4a11-8567-be4f9bb44438_KFC_Wordmark_RGB_Black.jpg",
       "AssetKind": "All",
@@ -697,10 +952,27 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\ac8a2908-a5b6-4a11-8567-be4f9bb44438_KFC_Wordmark_RGB_Black.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\b2e6fcbf-a20b-410a-b0a3-2f77d75a5cf0_KFC_Wordmark_RGB_White+Square.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\b1b277e7-377a-4e45-ae81-84539d5cb745_KFC_Wordmark_RGB_White+Rectangle.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/b1b277e7-377a-4e45-ae81-84539d5cb745_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\b1b277e7-377a-4e45-ae81-84539d5cb745_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\b2e6fcbf-a20b-410a-b0a3-2f77d75a5cf0_KFC_Wordmark_RGB_White+Square.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/Display/b2e6fcbf-a20b-410a-b0a3-2f77d75a5cf0_KFC_Wordmark_RGB_White+Square.jpg",
       "AssetKind": "All",
@@ -714,10 +986,44 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\b2e6fcbf-a20b-410a-b0a3-2f77d75a5cf0_KFC_Wordmark_RGB_White+Square.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\ed0bd804-b4f4-4d93-b4e5-0aacd0da45da_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\c5bea5af-6efe-4a1b-89bb-0fdd03924bfc_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/c5bea5af-6efe-4a1b-89bb-0fdd03924bfc_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\c5bea5af-6efe-4a1b-89bb-0fdd03924bfc_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\d6f6835f-2549-4add-85dd-873d84492a9f_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird St/Display/d6f6835f-2549-4add-85dd-873d84492a9f_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\Display\\d6f6835f-2549-4add-85dd-873d84492a9f_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird St\\ed0bd804-b4f4-4d93-b4e5-0aacd0da45da_10pc McNuggets.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Bird St/ed0bd804-b4f4-4d93-b4e5-0aacd0da45da_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -731,10 +1037,95 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird St\\ed0bd804-b4f4-4d93-b4e5-0aacd0da45da_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Hunter Rd\\Display\\3e1e1010-9748-469a-9a50-6e3386ff5a7b_KFC_Wordmark_RGB_Black.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird str\\Display\\088fbba7-084e-4510-9c8c-f4770a9873e2_KFC_Wordmark_RGB_White+Rectangle.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird str/Display/088fbba7-084e-4510-9c8c-f4770a9873e2_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird str\\Display\\088fbba7-084e-4510-9c8c-f4770a9873e2_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird str\\Display\\3a36c790-a42d-4b62-92f1-918ac94ee6b9_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird str/Display/3a36c790-a42d-4b62-92f1-918ac94ee6b9_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird str\\Display\\3a36c790-a42d-4b62-92f1-918ac94ee6b9_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird stree\\Display\\59e93c64-c2dc-4b8a-81aa-73bcddd35fc8_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird stree/Display/59e93c64-c2dc-4b8a-81aa-73bcddd35fc8_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird stree\\Display\\59e93c64-c2dc-4b8a-81aa-73bcddd35fc8_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird Street\\Display\\b3a9e2ea-2ebb-4183-a29b-24b485baa42e_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird Street/Display/b3a9e2ea-2ebb-4183-a29b-24b485baa42e_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird Street\\Display\\b3a9e2ea-2ebb-4183-a29b-24b485baa42e_KFC_WordmarkColLockup_Horizontal_RGB_Black.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Bird Street\\Display\\ea82c21a-1915-4791-8356-55d951d7636a_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC 56 Bird Street/Display/ea82c21a-1915-4791-8356-55d951d7636a_KFC_Wordmark_RGB_White+Rectangle.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Bird Street\\Display\\ea82c21a-1915-4791-8356-55d951d7636a_KFC_Wordmark_RGB_White+Rectangle.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Hunter Rd\\Display\\3e1e1010-9748-469a-9a50-6e3386ff5a7b_KFC_Wordmark_RGB_Black.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Hunter Rd/Display/3e1e1010-9748-469a-9a50-6e3386ff5a7b_KFC_Wordmark_RGB_Black.jpg",
       "AssetKind": "All",
@@ -748,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Hunter Rd\\Display\\3e1e1010-9748-469a-9a50-6e3386ff5a7b_KFC_Wordmark_RGB_Black.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Hunter Rd\\Display\\ec98537f-e202-4042-ae44-ddb106948cd6_KFC_Wordmark_RGB_Black.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 56 Hunter Rd\\Display\\ec98537f-e202-4042-ae44-ddb106948cd6_KFC_Wordmark_RGB_Black.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 56 Hunter Rd/Display/ec98537f-e202-4042-ae44-ddb106948cd6_KFC_Wordmark_RGB_Black.jpg",
       "AssetKind": "All",
@@ -765,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 56 Hunter Rd\\Display\\ec98537f-e202-4042-ae44-ddb106948cd6_KFC_Wordmark_RGB_Black.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\5ec2ac55-8093-435e-be22-a40056c55fbf_10pc McNuggets.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\5ec2ac55-8093-435e-be22-a40056c55fbf_10pc McNuggets.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/5ec2ac55-8093-435e-be22-a40056c55fbf_10pc McNuggets.jpg",
       "AssetKind": "All",
@@ -782,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\5ec2ac55-8093-435e-be22-a40056c55fbf_10pc McNuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\a98afc1b-9d46-411e-a76c-c1e401f28a1e_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\a98afc1b-9d46-411e-a76c-c1e401f28a1e_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/a98afc1b-9d46-411e-a76c-c1e401f28a1e_Restu.jpg",
       "AssetKind": "All",
@@ -799,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\a98afc1b-9d46-411e-a76c-c1e401f28a1e_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\BigBox_Zinger.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\BigBox_Zinger.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/BigBox_Zinger.png",
       "AssetKind": "All",
@@ -816,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\BigBox_Zinger.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Biscuits.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Biscuits.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Biscuits.png",
       "AssetKind": "All",
@@ -833,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Biscuits.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Box_2pcFeed.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Box_2pcFeed.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Box_2pcFeed.png",
       "AssetKind": "All",
@@ -850,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Box_2pcFeed.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_15pc.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_15pc.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Bucket_15pc.png",
       "AssetKind": "All",
@@ -867,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_15pc.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_21pc.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_21pc.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Bucket_21pc.png",
       "AssetKind": "All",
@@ -884,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_21pc.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_Chicken_strips_24.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_Chicken_strips_24.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Bucket_Chicken_strips_24.png",
       "AssetKind": "All",
@@ -901,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Bucket_Chicken_strips_24.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\ColeSlaw.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\ColeSlaw.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/ColeSlaw.png",
       "AssetKind": "All",
@@ -918,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\ColeSlaw.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Display\\KFC.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Display\\KFC.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Display/KFC.jpg",
       "AssetKind": "All",
@@ -935,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Display\\KFC.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\e0312c59-21c9-4e47-88e3-d5252dbdd356_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\e0312c59-21c9-4e47-88e3-d5252dbdd356_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/e0312c59-21c9-4e47-88e3-d5252dbdd356_Restu.jpg",
       "AssetKind": "All",
@@ -952,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\e0312c59-21c9-4e47-88e3-d5252dbdd356_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Fries.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Fries.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Fries.png",
       "AssetKind": "All",
@@ -969,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Fries.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\HotWings.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\HotWings.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/HotWings.png",
       "AssetKind": "All",
@@ -986,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\HotWings.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Mash & Gravy.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Mash & Gravy.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Mash & Gravy.png",
       "AssetKind": "All",
@@ -1003,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Mash & Gravy.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\PopcornChicken.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\PopcornChicken.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/PopcornChicken.png",
       "AssetKind": "All",
@@ -1020,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\PopcornChicken.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Twister.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Twister.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Twister.png",
       "AssetKind": "All",
@@ -1037,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Twister.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Sandwich.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Sandwich.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Zinger_Sandwich.png",
       "AssetKind": "All",
@@ -1054,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Sandwich.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Stacker.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Stacker.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/KFC 626 Heinz Rd/Zinger_Stacker.png",
       "AssetKind": "All",
@@ -1071,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Stacker.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\10pc McNuggets.jfif",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\10pc McNuggets.jfif",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/10pc McNuggets.jfif",
       "AssetKind": "All",
@@ -1088,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\10pc McNuggets.jfif"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\4pc McNuggets.jfif",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\4pc McNuggets.jfif",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/4pc McNuggets.jfif",
       "AssetKind": "All",
@@ -1105,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\4pc McNuggets.jfif"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\BigMac.jfif",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\BigMac.jfif",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/BigMac.jfif",
       "AssetKind": "All",
@@ -1122,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\BigMac.jfif"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Display\\Golden Arches.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Display\\Golden Arches.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/Display/Golden Arches.png",
       "AssetKind": "All",
@@ -1139,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Display\\Golden Arches.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Display\\McDonalds.jpeg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Display\\McDonalds.jpeg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/Display/McDonalds.jpeg",
       "AssetKind": "All",
@@ -1156,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Display\\McDonalds.jpeg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Iced Coffee.jfif",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Iced Coffee.jfif",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/Iced Coffee.jfif",
       "AssetKind": "All",
@@ -1173,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Iced Coffee.jfif"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\QuarterPounder with cheese.jfif",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\QuarterPounder with cheese.jfif",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/QuarterPounder with cheese.jfif",
       "AssetKind": "All",
@@ -1190,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\QuarterPounder with cheese.jfif"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Spicy Chicken Mc Larry.jfif",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Spicy Chicken Mc Larry.jfif",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mc Donalds 55 Norman Lex Rd/Spicy Chicken Mc Larry.jfif",
       "AssetKind": "All",
@@ -1207,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\Spicy Chicken Mc Larry.jfif"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\McDonalds\\Display\\Golden Arches.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\McDonalds\\Display\\Golden Arches.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/McDonalds/Display/Golden Arches.png",
       "AssetKind": "All",
@@ -1224,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\McDonalds\\Display\\Golden Arches.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mihlali\\Display\\f603e6ad-5fbf-405b-8a0e-3b998d671019_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mihlali\\Display\\f603e6ad-5fbf-405b-8a0e-3b998d671019_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Mihlali/Display/f603e6ad-5fbf-405b-8a0e-3b998d671019_Restu.jpg",
       "AssetKind": "All",
@@ -1241,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Mihlali\\Display\\f603e6ad-5fbf-405b-8a0e-3b998d671019_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Biscuits.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Biscuits.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Miller's hub 112 Bellview Rd/Biscuits.png",
       "AssetKind": "All",
@@ -1258,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Biscuits.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Display\\restaurant1.jpeg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Display\\restaurant1.jpeg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Miller's hub 112 Bellview Rd/Display/restaurant1.jpeg",
       "AssetKind": "All",
@@ -1275,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Display\\restaurant1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Mash & Gravy.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Mash & Gravy.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Miller's hub 112 Bellview Rd/Mash & Gravy.png",
       "AssetKind": "All",
@@ -1292,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\Mash & Gravy.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\restaurant1.jpeg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\restaurant1.jpeg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Miller's hub 112 Bellview Rd/restaurant1.jpeg",
       "AssetKind": "All",
@@ -1309,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\restaurant1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\restaurant3.jpeg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\restaurant3.jpeg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Miller's hub 112 Bellview Rd/restaurant3.jpeg",
       "AssetKind": "All",
@@ -1326,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Miller's hub 112 Bellview Rd\\restaurant3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Phuzi meals\\Display\\dc6b2474-e8e4-41e1-8add-17ac3b77ddfd_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Phuzi meals\\Display\\dc6b2474-e8e4-41e1-8add-17ac3b77ddfd_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Phuzi meals/Display/dc6b2474-e8e4-41e1-8add-17ac3b77ddfd_Restu.jpg",
       "AssetKind": "All",
@@ -1343,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Phuzi meals\\Display\\dc6b2474-e8e4-41e1-8add-17ac3b77ddfd_Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\1280x720.webp",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\1280x720.webp",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/1280x720.webp",
       "AssetKind": "All",
@@ -1360,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\1280x720.webp"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\beef-ribs-quarter-chicken.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\beef-ribs-quarter-chicken.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/beef-ribs-quarter-chicken.png",
       "AssetKind": "All",
@@ -1377,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\beef-ribs-quarter-chicken.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\classic---bacon--cheese-burger.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\classic---bacon--cheese-burger.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/classic---bacon--cheese-burger.png",
       "AssetKind": "All",
@@ -1394,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\classic---bacon--cheese-burger.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\Display\\Steers.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\Display\\Steers.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/Display/Steers.jpg",
       "AssetKind": "All",
@@ -1411,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\Display\\Steers.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\double-cheesy-bacon-king-burgerc.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\double-cheesy-bacon-king-burgerc.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/double-cheesy-bacon-king-burgerc.png",
       "AssetKind": "All",
@@ -1428,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\double-cheesy-bacon-king-burgerc.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\king-steer-burger-sharing-meal.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\king-steer-burger-sharing-meal.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/king-steer-burger-sharing-meal.png",
       "AssetKind": "All",
@@ -1445,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\king-steer-burger-sharing-meal.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\mjojo-sharing-meal.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\mjojo-sharing-meal.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/mjojo-sharing-meal.png",
       "AssetKind": "All",
@@ -1462,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\mjojo-sharing-meal.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\Salad_Chicken.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\Salad_Chicken.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/Salad_Chicken.png",
       "AssetKind": "All",
@@ -1479,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\Salad_Chicken.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\single-pork-ribschips.png",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers 92 Caledon St\\single-pork-ribschips.png",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers 92 Caledon St/single-pork-ribschips.png",
       "AssetKind": "All",
@@ -1496,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers 92 Caledon St\\single-pork-ribschips.png"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers\\Display\\Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Steers\\Display\\Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Steers/Display/Restu.jpg",
       "AssetKind": "All",
@@ -1513,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Restuarants\\Steers\\Display\\Restu.jpg"
     },
     {
-      "Identity": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Terry\\Display\\2063704e-9897-4bbe-8084-decfa0f8d108_Restu.jpg",
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Terry\\Display\\2063704e-9897-4bbe-8084-decfa0f8d108_Restu.jpg",
       "SourceId": "UberEatsAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
       "BasePath": "_content/UberEatsAPI",
       "RelativePath": "Restuarants/Terry/Display/2063704e-9897-4bbe-8084-decfa0f8d108_Restu.jpg",
       "AssetKind": "All",

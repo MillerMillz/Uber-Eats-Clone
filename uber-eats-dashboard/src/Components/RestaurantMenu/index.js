@@ -17,12 +17,10 @@ const RestaurantMenu = () =>{
     const [deletedItem,setDeletedItem] = useState(null)
     const FetchMenu = async () => {
         var data = await get(apiRoutes.getRestuDishes+Restaurant.id)
-        console.log(data);
         setRestuDishes(data);
     }
     const DeleteItem = async (item)=>{
         var data = await post(apiRoutes.RemoveDish,item)
-        console.log(data);
         setDeletedItem(data);
         if(data.success)
         {

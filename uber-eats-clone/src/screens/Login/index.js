@@ -26,11 +26,9 @@ const Login = () => {
             Email:email,
             Password:password
         })
-        console.log(data)
         if(data.success)
         {
             
-            console.log("Signed Up")
             navigation.goBack();
             
         }
@@ -43,15 +41,14 @@ const Login = () => {
         
     }
     const handleLogin =  async () => {
+  
         var data = await post(apiRoutes.login,{
             Email:email,
             Password:password
         })
-        console.log(data)
         if(data.success)
         {
             setAuthUser(data.response.data)
-            console.log("Signed In")
             navigation.goBack();
             
         }

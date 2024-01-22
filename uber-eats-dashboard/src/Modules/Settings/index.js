@@ -8,13 +8,15 @@ import default_logo from "../../data/assets/logo/default_logo.png"
 import {Image} from 'antd';
 import PopUp from "../../Components/Popup";
 import check from "../../data/assets/check.png"
+import * as signalR from "@microsoft/signalr"
 
 
 import {useNavigate} from "react-router-dom";
 
 const Settings =() =>{
+    var hubConnection = new signalR.HubConnectionBuilder().withUrl("http://192.168.0.151:7088/ChatHub").withAutomaticReconnect().build();
     const navigate = useNavigate();
-    const {Restaurant,authUser} = useAuthContext();
+    const {Restaurant,authUser,setRestaurant} = useAuthContext();
     const [restuImage,setRestuImage] =  useState();
     const [response,setResponse] =  useState();
     const [displayImage,setDisplayImage] =  useState(default_logo);
@@ -40,7 +42,7 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
         console.log(latlng);
         setCoordinates(latlng)
     } */
-    const onSubmit = ({}) =>{
+    const onSubmit = async ({}) =>{
         // console.log(name);
         // console.log(lat);
         // console.log(lng);
@@ -64,14 +66,29 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
         
             formData.append("image",restuImage);
             formData.append("id",Restaurant.id);
-             console.log(formData);
-            axios.post(apiRoutes.EditRestuarant,formData).then((Result)=>{ setResponse(Result.data);});
+            await axios.post(apiRoutes.EditRestuarant,formData).then((Result)=>{ 
+                setResponse(Result.data);
+                setRestaurant(Result.data.response); });
+            
             
          }
         else
         { 
             formData.append("image",restuImage);
-             axios.post(apiRoutes.AddRestuarant,formData).then((Result)=>{ setResponse(Result.data);});
+            await axios.post(apiRoutes.AddRestuarant,formData).then((Result)=>{ 
+                setResponse(Result.data);
+                setRestaurant(Result.data.response);});
+            
+        }
+        try{
+            await hubConnection.start();
+            await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Restaurant"}));
+            await hubConnection.invoke("SendMessageAsync","Restaurant Update");
+            await hubConnection.stop()
+        }
+        catch(e)
+        {
+            console.log(e);
         }
 
        
@@ -97,7 +114,6 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
     useEffect(()=>{
     if(response && response.success)
             {
-                console.log("successsss!!!")
                 setTrigger(true);
                
             }

@@ -57,32 +57,32 @@ namespace UberEatsAPI.Controllers
         [Route("Login")]
         public async Task<ActionResult<APIResponse<LoginAPIModel.Response>>> Login(LoginAPIModel.Request request)
         {
-            var user = await userManager.FindByEmailAsync(request.Email);
-            var responseModel = new APIResponse<LoginAPIModel.Response>();
-            if (user == null)
-            {
-                responseModel.Errors.Add("Invalid User name");
-                return responseModel;
-            }
-
-
-            var result = await signInManager.PasswordSignInAsync(user, request.Password, false, false);
-
-            if (result.Succeeded)
-            {
-
-                responseModel.Response = new LoginAPIModel.Response()
+          
+                var user = await userManager.FindByEmailAsync(request.Email);
+                var responseModel = new APIResponse<LoginAPIModel.Response>();
+                if (user == null)
                 {
-                    Data = user,
-                    Token = Guid.NewGuid().ToString(),
-                };
-
-                return Ok(responseModel);
-            }
-            responseModel.Errors.Add("Invalid Password");
-            return responseModel;
+                    responseModel.Errors.Add("Invalid User name");
+                    return responseModel;
+                }
 
 
+                var result = await signInManager.PasswordSignInAsync(user, request.Password, false, false);
+
+                if (result.Succeeded)
+                {
+
+                    responseModel.Response = new LoginAPIModel.Response()
+                    {
+                        Data = user,
+                        Token = Guid.NewGuid().ToString(),
+                    };
+
+                    return Ok(responseModel);
+                }
+                responseModel.Errors.Add("Invalid Password");
+                return responseModel;
+          
         }
         [HttpPost]
         [Route("JwtLogin")]

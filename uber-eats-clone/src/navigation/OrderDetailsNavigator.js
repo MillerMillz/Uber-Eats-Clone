@@ -8,7 +8,6 @@ const Tab = createMaterialTopTabNavigator();
 const OrderDetailsNavigator = ({route}) =>{
     const id = route?.params?.id;
    useEffect(()=>{
-    console.log("hit")
    },[])
     return(
         <Tab.Navigator>

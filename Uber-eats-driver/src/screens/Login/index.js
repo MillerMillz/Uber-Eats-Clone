@@ -6,6 +6,7 @@ import apiRoutes from '../../../apiRoutes'
 import { useAuthContext } from '../../contexts/AuthContext'
 
 
+
 const Login = () => {
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
@@ -22,14 +23,13 @@ const Login = () => {
     const {setAuthUser} = useAuthContext();
 
     const handleSignUp = async () => {
+        
         var data = await post(apiRoutes.register,{
             Email:email,
             Password:password
         })
-        console.log(data)
         if(data.success)
         {
-            console.log("Signed Up")
             navigation.goBack();
             
         }
@@ -42,15 +42,14 @@ const Login = () => {
         
     }
     const handleLogin =  async () => {
+       
         var data = await post(apiRoutes.login,{
             Email:email,
             Password:password
         })
-        console.log(data)
         if(data.success)
         {
             setAuthUser(data.response.data)
-            console.log(data.response.data)
             navigation.goBack();
             
         }

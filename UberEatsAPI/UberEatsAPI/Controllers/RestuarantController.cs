@@ -112,8 +112,7 @@ namespace UberEatsAPI.Controllers
                 image = ret.image,
                 imageSource = String.Format("{0}://{1}{2}/{3}", Request.Scheme, Request.Host, Request.PathBase, ret.image),
             };
-
-            return Ok(response);
+            return response;
 
         }
 

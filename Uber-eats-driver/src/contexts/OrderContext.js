@@ -28,22 +28,16 @@ const OrderContextProvider = ({ children }) => {
     }
 
     const fetchedOrder = await get(apiRoutes.getOrderbyID+id);
-    console.log(apiRoutes.getOrderbyID+id)
-    console.log(fetchedOrder)
     setOrder(fetchedOrder);
 
-    console.log(apiRoutes.getDbUserByID+fetchedOrder.userID)
     var userData = await get(apiRoutes.getDbUserByID+fetchedOrder.userID);
-    console.log(userData)
     setUser(userData);
     var orderDishes = await get(apiRoutes.getOrderDishes+fetchedOrder.id)
-    console.log(orderDishes)
     setDishes(orderDishes);
   };
 
   const acceptOrder = async () => {
     // update the order, and change status, and assign the courier
-    console.log("hit")
     var data = await post(apiRoutes.updateOrderStatus,
        {
         Id:order.id,
@@ -51,14 +45,12 @@ const OrderContextProvider = ({ children }) => {
         Status : "ACCEPTED",
         CourierID : dbCourier.id
       })
-      console.log(data)
       setOrder(data);
      
   };
 
   const pickUpOrder = async () => {
     // update the order, and change status, and assign the courier
-    console.log("hit")
     var data = await post(apiRoutes.updateOrderStatus,
        {
         Id:order.id,
@@ -66,14 +58,12 @@ const OrderContextProvider = ({ children }) => {
         Status : "PICKED_UP",
         CourierID : dbCourier.id
       })
-      console.log(data)
       setOrder(data);
    
   };
 
   const completeOrder = async () => {
     // update the order, and change status, and assign the courier
-    console.log("hit")
     var data = await post(apiRoutes.updateOrderStatus,
        {
         Id:order.id,
@@ -81,7 +71,6 @@ const OrderContextProvider = ({ children }) => {
         Status : "COMPLETED",
         CourierID : dbCourier.id
       })
-      console.log(data)
       setOrder(data);
   };
 

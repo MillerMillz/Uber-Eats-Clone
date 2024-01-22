@@ -5,15 +5,39 @@ import {get} from "../../../apiCalls"
 import apiRoutes from "../../../apiRoutes";
 import MapView,{Marker} from "react-native-maps"
 import {FontAwesome5} from "@expo/vector-icons"
+import * as signalR from "../../../lib/signalr/dist/browser/signalr"
 import { useRef } from "react";
 import { useFocusEffect,useIsFocused } from "@react-navigation/native";
 
 const OrderMapView = ({id}) =>{
     const [order,setOrder] = useState(null);
     const [driver,setDriver] = useState(null);
+    const [connection,setConnection] = useState();
     const isFocused = useIsFocused();
-    const mapRef = useRef(null)
-    useEffect(()=>{
+    const mapRef = useRef(null);
+    const connectToHub = async () =>{
+        try{ 
+            var hubConnection = new signalR.HubConnectionBuilder().withUrl("http://192.168.0.151:7088/ChatHub").withAutomaticReconnect().build();
+            hubConnection.on("RecievedMessage",function(message){
+                   
+                   if(order?.courierID>0)
+                   {
+                    FetchDriver();
+                   }
+              
+                })
+      
+                setConnection(hubConnection);
+                await hubConnection.start();
+                await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Driver"}));
+        }
+        catch(e)
+        {
+            console.log(e);
+        }
+      }
+   
+  /*   useEffect(()=>{
           
             
         if(order?.courierID>0) {
@@ -25,7 +49,7 @@ const OrderMapView = ({id}) =>{
    },10000);
 
    return ()=>{clearInterval(intervalID);}}
-},[])
+},[]) */
    
     const FetchOrder = async () =>{
         var data = await get(apiRoutes.getOrderbyID+id);
@@ -59,7 +83,8 @@ const OrderMapView = ({id}) =>{
     },[driver?.lat,driver?.lng])
 
     useEffect(()=>{
-       
+       connectToHub();
+
         if(id)
         {
            

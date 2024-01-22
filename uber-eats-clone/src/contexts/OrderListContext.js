@@ -4,12 +4,15 @@ import { useAuthContext } from "./AuthContext";
 import { useBasketListContext } from "./BasketListContext";
 import {get,post} from "../../apiCalls"
 import apiRoutes from "../../apiRoutes";
+import * as signalR from "../../lib/signalr/dist/browser/signalr"
 
 const OrderListContext = createContext({});
 
 const OrderListContextProvider = ({ children }) => {
-  const { dbUser } = useAuthContext();
+  const { dbUser,authUser } = useAuthContext();
   const { restaurant, totalPrice, basketDishes, basket, setBasket,setBasketDishes } = useBasketListContext();
+  var hubConnection = new signalR.HubConnectionBuilder().withUrl("http://192.168.0.151:7088/ChatHub").withAutomaticReconnect().build();
+
 
   const [orders, setOrders] = useState([]);
   const FetchOrders = async (user) => {
@@ -22,14 +25,7 @@ const OrderListContextProvider = ({ children }) => {
   }, [dbUser]);
 
   const createOrder = async () => {
-    console.log(restaurant)
-    console.log({
-      userID: dbUser.id,
-      restaurantID: restaurant.id,
-      status: "NEW",
-      total: totalPrice,
-      noItems:basketDishes.length
-    })
+    console.log("from list")
     // create the order
     const newOrder = await post(apiRoutes.AddOrder,
       {
@@ -41,10 +37,20 @@ const OrderListContextProvider = ({ children }) => {
       }
     );
 
+    try{
+      await hubConnection.start();
+      await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+       
+     await hubConnection.invoke("SendMessageAsync","New Dish");
+      hubConnection.stop();
+     } catch(e)
+     {
+       console.log(e);
+     }
     
-      console.log(basketDishes);
+
+    
     // add all basketDishes to the order
-    console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     await Promise.all(
       basketDishes.map((basketDish) =>
         post(apiRoutes.addOrderDish,
@@ -59,8 +65,7 @@ const OrderListContextProvider = ({ children }) => {
     );
           
     // delete basket
-    console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-    console.log(basket)
+   
     await post(apiRoutes.DeleteBasket,basket);
     setBasket(null);
     setBasketDishes([]);

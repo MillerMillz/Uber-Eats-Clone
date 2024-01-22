@@ -25,16 +25,13 @@ const Register =() =>{
         localStorage.removeItem('jwt')
         var data = await post(apiRoutes.login,{email:email,
         password:password });
-       console.log(data)
        const decoded = jwt(data.token);
-        console.log(decoded);
         setJwt(data.token);
         localStorage.setItem('jwt',data.token);
         setCheckUser(true);
     }
     const Register = async () => {
         var data = await post(apiRoutes.register,{email:email,password:password});
-        console.log(data);
         if(data.success)
         {
            setCheckLogin(true);
@@ -48,15 +45,12 @@ const Register =() =>{
       
        
 
-        console.log(Jwt)
          var data = await get(apiRoutes.getAuthUser+Jwt)
-         console.log(data)
          
         
 
         if(data!=null)
         {
-            console.log("HGalala");
             setAuthUser(data);
             setUser(data);
         

@@ -4,11 +4,15 @@ import {useNavigate, useParams} from "react-router-dom"
 import { useEffect,useState } from 'react'
 import { get, post } from '../../apiCalls'
 import apiRoutes from '../../apiRoutes'
+import * as signalR from '@microsoft/signalr'
+import { useAuthContext } from '../../Contexts/AuthContext'
  
 
 
 const DetailedOrder = ()=>{
   const navigate = useNavigate();
+  const {authUser} = useAuthContext();
+  var hubConnection = new signalR.HubConnectionBuilder().withUrl("http://192.168.0.151:7088/ChatHub").build();
   const [checkDecline,setCheckDecline] = useState(1);
   const [checkAccepted,setCheckAccepted] = useState(1);
  
@@ -16,26 +20,55 @@ const DetailedOrder = ()=>{
   const [theOrder,setTheOrder] = useState(null);
   const FetchOrderDishes = async () => {
     var data = await get(apiRoutes.getCustomerOrderDishes+id);
-    console.log(data);
     setTheOrder(data);
   }
   const DeclineOrder = async () =>{
     theOrder.status="DECLINED_BY_RESTAURANT";
     var data = await post(apiRoutes.updateOrder,theOrder)
-    console.log(data);
-    setCheckDecline(3)
+   
+    try{
+      await hubConnection.start();
+      await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+       
+     await hubConnection.invoke("SendMessageAsync","Declined order");
+      hubConnection.stop();
+     } catch(e)
+     {
+       console.log(e);
+     }
+    
+    setCheckDecline(3);
   }
   const AcceptOrder = async () =>{
     theOrder.status="COOKING";
-    var data = await post(apiRoutes.updateOrder,theOrder)
-    console.log(data);
+    var data = await post(apiRoutes.updateOrder,theOrder);
+    try{
+      await hubConnection.start();
+      await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+       
+     await hubConnection.invoke("SendMessageAsync","Accepted Order");
+      hubConnection.stop();
+     } catch(e)
+     {
+       console.log(e);
+     }
     setCheckAccepted(5)
   }
   const OrderIsDone = async () =>{
     theOrder.status="READY_FOR_PICKUP";
-    var data = await post(apiRoutes.updateOrder,theOrder)
-    console.log(data);
-    setCheckDecline(5)
+    var data = await post(apiRoutes.updateOrder,theOrder);
+    try{
+      await hubConnection.start();
+      await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+       
+     await hubConnection.invoke("SendMessageAsync","Finished preping Order");
+      hubConnection.stop();
+     } catch(e)
+     {
+       console.log(e);
+     }
+    
+    setCheckDecline(5);
   }
   
   useEffect(()=>{

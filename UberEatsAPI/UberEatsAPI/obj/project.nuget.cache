@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zoR+YY9ECLv5xq0JxgxrOLO8MUfqcrP2NCqDGGTJfoAhLQj1tm0T+FVuXEE3Or9yr3QSAx6g32ceZV+anvHatQ==",
+  "dgSpecHash": "4tq6F67Imo0a5MLHcQBxUaQwR2lKYKKCkJ6poQBJWSAiH01thFOI5ku0gUl93VCn7Kh6j1pSHcHIJfZqqL55oQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\UberEatsAPI.csproj",
+  "projectFilePath": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\UberEatsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\millz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\millz\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

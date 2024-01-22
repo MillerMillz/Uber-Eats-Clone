@@ -9945,11 +9945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\UberEatsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\UberEatsAPI.csproj",
       "projectName": "UberEatsAPI",
-      "projectPath": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\UberEatsAPI.csproj",
+      "projectPath": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\UberEatsAPI.csproj",
       "packagesPath": "C:\\Users\\millz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\millz\\Desktop\\LastDay\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\obj\\",
+      "outputPath": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

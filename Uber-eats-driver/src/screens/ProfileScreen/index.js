@@ -39,7 +39,6 @@ const Profile = () => {
   const navigation = useNavigation();
   const signOut = async () => {
     const signal = await post(apiRoutes.signOut)
-    console.log(signal);
     setAuthUser(null);
     setDbCourier(null);
     navigation.goBack();
@@ -78,7 +77,6 @@ const Profile = () => {
         transportationMode:transportationMode
         }
       );
-      console.log(courier)
       setDbCourier(courier);
    /*  } catch (e) {
       Alert.alert("Error", e.message);

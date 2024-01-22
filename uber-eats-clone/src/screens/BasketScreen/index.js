@@ -13,7 +13,6 @@ const BasketScreen = () => {
   const [baskets,setBaskets] = useState();
 
   const FetchUserDishes = async () =>{
-    console.log(apiRoutes.getUserBaskets+dbUser.id)
     var baskets = await get(apiRoutes.getUserBaskets+dbUser.id)
     setBaskets(baskets);
   }

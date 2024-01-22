@@ -10,16 +10,13 @@ const AuthContextProvider = ({ children }) => {
   const [dbCourier, setDbCourier] = useState(null);
   const sub = authUser?.id;
   const FetchAuthUser = async () =>{
-    console.log("================================================================")
     const Authdata = await get(apiRoutes.getAuthUser);
-    console.log(Authdata.id)
     setAuthUser(Authdata);
   }
 
   const FetchdbCourier = async (id) =>{
     const dbCouriedata = await get(apiRoutes.getDbCourier+id);
     setDbCourier(dbCouriedata);
-    console.log(dbCouriedata)
   }
 
   useEffect(() => {

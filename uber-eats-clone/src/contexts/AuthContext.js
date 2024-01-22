@@ -10,11 +10,7 @@ const AuthContextProvider = ({ children }) => {
   const [dbUser, setDbUser] = useState(null);
   const sub = authUser?.id;
   const FetchAuthUser = async () =>{
-    console.log("================================================================")
-    const Authdata = await get(apiRoutes.getAuthUser);  
-    console.log("==============================++==================================")
-    console.log(Authdata)
-  
+    const Authdata = await get(apiRoutes.getAuthUser);    
     setAuthUser(Authdata);
     
   }
@@ -23,7 +19,6 @@ const AuthContextProvider = ({ children }) => {
     
     const dbUserdata = await get(apiRoutes.getDbUser+sub);
     setDbUser(dbUserdata);
-    console.log(dbUserdata)
   }
 
   useEffect(() => {

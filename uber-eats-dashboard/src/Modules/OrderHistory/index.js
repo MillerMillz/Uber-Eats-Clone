@@ -7,11 +7,9 @@ import {useAuthContext} from "../../Contexts/AuthContext"
 const OrderHistory = () =>{
     
     const {Restaurant} = useAuthContext();
-    const [OrderHistory,setOrderHistory] = useState([]);
-    console.log(Restaurant);
+    const [OrderHistory,setOrderHistory] = useState();
     const FetchOrders = async () =>{
         var data = await get(apiRoutes.OrderHistory+Restaurant.id);
-        console.log(data);
         setOrderHistory(data);
     }
     useEffect(()=>{
@@ -51,7 +49,7 @@ const OrderHistory = () =>{
             render : renderOrderStatus
         }
     ];
-    if(OrderHistory===[])
+    if(!OrderHistory)
     {
         return <Spin size="large"/>
     }

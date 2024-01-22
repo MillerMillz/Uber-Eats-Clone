@@ -11,10 +11,14 @@ import { FontAwesome5, Fontisto } from "@expo/vector-icons";
 import styles from "./styles";
 import MapView, { Marker } from "react-native-maps";
 import * as Location from "expo-location";
+import * as signalR from "../../../lib/signalr/dist/browser/signalr";
 import { Entypo, MaterialIcons, Ionicons } from "@expo/vector-icons";
 import MapViewDirections from "react-native-maps-directions";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { useOrderContext } from "../../contexts/OrderContext";
+import { useAuthContext } from "../../contexts/AuthContext";
+import apiRoutes from "../../../apiRoutes";
+import {post} from "../../../apiCalls";
 
 // const ORDER_STATUSES = {
 //   READY_FOR_PICKUP: "READY_FOR_PICKUP",
@@ -33,6 +37,8 @@ const OrderDelivery = () => {
     completeOrder,
     pickUpOrder,
   } = useOrderContext();
+  const {authUser,dbCourier,setDbCourier} = useAuthContext();
+
 
   const [driverLocation, setDriverLocation] = useState(null);
   const [totalMinutes, setTotalMinutes] = useState(0);
@@ -51,15 +57,37 @@ const OrderDelivery = () => {
   const route = useRoute();
   const id = route.params?.id;
 
+  var hubConnection = new signalR.HubConnectionBuilder().withUrl("http://192.168.0.151:7088/ChatHub").build();
+
+
   useEffect(() => {
     fetchOrder(id);
   }, [id]);
+  const UpdateDriver=async ()=>{
+    await post(apiRoutes.updateCourier,
+      {id:dbCourier.id,name:dbCourier.name,userID:dbCourier.userID,transportatioMode:dbCourier.transportatioMode,
+        lat:driverLocation.latitude, lng:driverLocation.longitude}
+    );
+    try{
+      await hubConnection.start();
+      await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+       
+     await hubConnection.invoke("SendMessageAsync","Update Driver");
+      hubConnection.stop();
+     } catch(e)
+     {
+       console.log(e);
+     }
+  }
+  useEffect( ()=>{
+if(driverLocation){
+   UpdateDriver();}
+  },[driverLocation])
 
   useEffect(() => {
     (async () => {
       let { status } = await Location.requestForegroundPermissionsAsync();
       if (!status === "granted") {
-        console.log("Nono no waay");
         return;
       }
 
@@ -95,14 +123,44 @@ const OrderDelivery = () => {
         longitudeDelta: 0.01,
       });
       acceptOrder();
+      try{
+        await hubConnection.start();
+        await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+         
+       await hubConnection.invoke("SendMessageAsync","Update Order");
+        hubConnection.stop();
+       } catch(e)
+       {
+         console.log(e);
+       }
     }
     if (order.status === "ACCEPTED") {
       bottomSheetRef.current?.collapse();
       pickUpOrder();
+      try{
+        await hubConnection.start();
+        await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+         
+       await hubConnection.invoke("SendMessageAsync","Update Order");
+        hubConnection.stop();
+       } catch(e)
+       {
+         console.log(e);
+       }
     }
     if (order.status === "PICKED_UP") {
       await FetchOrders();
       await completeOrder();
+      try{
+        await hubConnection.start();
+        await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+         
+       await hubConnection.invoke("SendMessageAsync","Update Order");
+        hubConnection.stop();
+       } catch(e)
+       {
+         console.log(e);
+       }
       bottomSheetRef.current?.collapse();
       navigation.goBack();
     }

@@ -5,19 +5,43 @@ import { useNavigate } from "react-router-dom";
 import { useAuthContext } from "../../Contexts/AuthContext";
 import apiRoutes from "../../apiRoutes";
 import { get } from "../../apiCalls"
+import * as signalR from "@microsoft/signalr";
 
 const Orders = () => {
-    const {Restaurant} = useAuthContext();
+    const {Restaurant,authUser} = useAuthContext();
     const navigate = useNavigate();
     const [restuOrders,setRestuOrders] = useState([]);
+    const [connection,setConnection] = useState();
+    
     const FetchOrders = async () => {
         var data = await get(apiRoutes.getRestaurantOrders+Restaurant.id)
-        console.log(data);
         setRestuOrders(data);
     }
+
+    const connectToHub = async () =>{
+        try{ 
+            var hubConnection = new signalR.HubConnectionBuilder().withUrl("http://192.168.0.151:7088/ChatHub").withAutomaticReconnect().build();
+            hubConnection.on("RecievedMessage",function(message){
+                  
+                FetchOrders();
+                
+                })
+
+                setConnection(hubConnection);
+                await hubConnection.start();
+                await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
+        }
+        catch(e)
+        {
+            console.log(e);
+        }
+    }
+   
     useEffect(()=>{
+        connectToHub();
         FetchOrders();
     },[]);
+   
     const renderOrderStatus = (orderStatus) => {
         if(orderStatus==='NEW')
         {

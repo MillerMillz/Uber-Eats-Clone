@@ -31,7 +31,6 @@ const Login = () => {
         localStorage.removeItem('jwt')
         var data = await post(apiRoutes.login,{email:email,
         password:password });
-       console.log(data)
       
     //  localStorage.setItem('jwt',data.token)
         if(data.token==="Invalid User name")
@@ -43,7 +42,6 @@ const Login = () => {
         } else
         {
         const decoded = jwt(data.token);
-        console.log(decoded);
         localStorage.setItem('jwt',data.token);
         setJwt(data.token);
         }
@@ -54,9 +52,7 @@ const Login = () => {
       
        
 
-        console.log(Jwt)
          var data = await get(apiRoutes.getAuthUser+Jwt)
-         console.log(data)
          setSub(data?.id)
         
 
@@ -69,9 +65,7 @@ const Login = () => {
             
                
         }
-        else{
-            console.log("false")
-        }
+        
     }
     useEffect(()=>{
         if(Jwt!='')

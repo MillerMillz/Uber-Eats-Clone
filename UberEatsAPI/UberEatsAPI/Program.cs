@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using UberEatsAPI.Hubs;
 using UberEatsAPI.Models;
 using UberEatsAPI.Models.DataAccess;
 using UberEatsAPI.Models.Repository;
+using UberEatsAPI.Models.SignalRModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,8 +52,10 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddScoped<ICourierRepository, CourierRepository>();
+builder.Services.AddSingleton<IDictionary<string, UserConnection>>(options => new Dictionary<string,UserConnection>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSignalR();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options => options.AddPolicy("corspolicy", build =>
 {
@@ -68,11 +72,16 @@ if (app.Environment.IsDevelopment())
 }
 app.UseCors("corspolicy");
 app.UseStaticFiles();
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseHttpsRedirection();
 
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapHub<ChatHub>("/ChatHub");
+});
 
 app.MapControllers();
 

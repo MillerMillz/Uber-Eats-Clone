@@ -29,7 +29,6 @@ const OrderDetails = ({ id }) => {
   const { getOrder } = useOrderContext();
 
   
-  console.log(id)
   useEffect(() => {
    if(id){
     getOrder(id).then(setOrder);}
@@ -38,7 +37,6 @@ const OrderDetails = ({ id }) => {
   if (!order) {
     return <ActivityIndicator size={"large"} color="gray" />;
   }
-  console.log(order)
   return (
     <FlatList
       ListHeaderComponent={() => <OrderDetailsHeader order={order} />}

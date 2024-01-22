@@ -18,10 +18,7 @@ const BasketFromList = () => {
   const id = route.params?.id;
   const [totalPrice,setTotalPrice] = useState(null);
   const FetchRestuarant = async ()=>{
-    console.log(basket)
-    console.log("------------")
-    console.log("2")
-    console.log("-----------")
+   
     var data = await get(apiRoutes.getRestuarant+basket?.restaurantID)
     console.log(data)
     setRestaurant(data);
@@ -41,12 +38,8 @@ const BasketFromList = () => {
     ));
   }
   const FetchBasket =async()=>{
-    console.log(apiRoutes.getBasket+id)
     var data=await get(apiRoutes.getBasket+id);
-    console.log("+++++++++++++++++++++++")
-    console.log("1")
-    console.log("+++++++++++++++++++++++")
-    console.log(data)
+    
     setBasket(data);
     
   }
@@ -63,24 +56,16 @@ const BasketFromList = () => {
   useEffect(()=>{
     if(basketDishes){
     CalculateTotal();
-    console.log("hit") 
     }
   },[basketDishes])
   useEffect(()=>{ 
-    console.log("in uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu")
     if(basket){
-      console.log("in uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu")
     FetchRestuarant();
    // FetchBasketDishes();
   }
   },[basket])
  
   if (!restaurant || !basket || !totalPrice) {
-    console.log("===========================================================")
-    console.log(restaurant)
-    console.log(basket)
-    console.log(totalPrice)
-    console.log("===========================================================")
     return <ActivityIndicator size={"large"} color="gray" />;
   }
   return (

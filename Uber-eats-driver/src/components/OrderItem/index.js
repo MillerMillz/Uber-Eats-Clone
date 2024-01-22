@@ -10,9 +10,7 @@ const OrderItem = ({ order }) => {
   const navigation = useNavigation();
 
   const FetchOrderUser = async () =>{
-    console.log(order.userID);
     var data = await get(apiRoutes.getDbUserByID+order.userID);
-    console.log(data);
     setUser(data);
   }
   useEffect(() => {
