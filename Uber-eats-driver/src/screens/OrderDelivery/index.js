@@ -64,10 +64,11 @@ const OrderDelivery = () => {
     fetchOrder(id);
   }, [id]);
   const UpdateDriver=async ()=>{
-    await post(apiRoutes.updateCourier,
-      {id:dbCourier.id,name:dbCourier.name,userID:dbCourier.userID,transportatioMode:dbCourier.transportatioMode,
+   var res = await post(apiRoutes.updateCourier,
+      {id:dbCourier.id,name:dbCourier.name,userID:dbCourier.userID,transportationMode:dbCourier.transportationMode,
         lat:driverLocation.latitude, lng:driverLocation.longitude}
     );
+    console.log(res);
     try{
       await hubConnection.start();
       await hubConnection.invoke("AssignGroup",JSON.stringify({Email:authUser.email,Group:"Order"}));
@@ -81,33 +82,35 @@ const OrderDelivery = () => {
   }
   useEffect( ()=>{
 if(driverLocation){
+   console.log("useeffect"+ restaurantLocation);
    UpdateDriver();}
   },[driverLocation])
 
   useEffect(() => {
-    (async () => {
+    async () => {
       let { status } = await Location.requestForegroundPermissionsAsync();
-      if (!status === "granted") {
+       if (!status === "granted") {
         return;
-      }
+      } 
 
       let location = await Location.getCurrentPositionAsync();
       setDriverLocation({
         latitude: location.coords.latitude,
         longitude: location.coords.longitude,
       });
-    })();
+    };
 
     const foregroundSubscription = Location.watchPositionAsync(
       {
-        accuracy: Location.Accuracy.High,
-        distanceInterval: 100,
+        accuracy: Location.Accuracy.Highest,
+        distanceInterval: 1,
       },
       (updatedLocation) => {
         setDriverLocation({
           latitude: updatedLocation.coords.latitude,
           longitude: updatedLocation.coords.longitude,
         });
+      
       }
     );
     return foregroundSubscription;
@@ -200,11 +203,14 @@ if(driverLocation){
     longitude: user?.lng,
   };
 
-  if (!driverLocation) {
+  if (!driverLocation || !restaurantLocation) {
     
-    return <ActivityIndicator size={"large"} />;
+    return <ActivityIndicator size={"large"} color="red"/>;
   }
-
+  if (!deliveryLocation) {
+    
+    return <ActivityIndicator size={"large"} color="green"/>;
+  }
   if (!order || !user || !driverLocation) {
    
     return <ActivityIndicator size={"large"} color="gray" />;
@@ -227,15 +233,16 @@ if(driverLocation){
         <MapViewDirections
           origin={driverLocation}
           destination={
-            order.status === "ACCEPTED" ? restaurantLocation : deliveryLocation
+             order.status === "ACCEPTED" ? restaurantLocation : deliveryLocation 
           }
           strokeWidth={10}
           waypoints={
             order.status === "READY_FOR_PICKUP" ? [restaurantLocation] : []
           }
           strokeColor="#3FC060"
-          apikey={"AIzaSyA40_jSaAHHq6J3o3HKJujVrMHv9gcSV3E"}
+          apikey={"AIzaSyAfjdWuBgeCIzS1aOu3qQpvovbn3Sep008"}
           onReady={(result) => {
+           
             setIsDriverClose(result.distance <= 5);
             setTotalMinutes(result.duration);
             setTotalKm(result.distance);

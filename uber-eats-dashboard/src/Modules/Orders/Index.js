@@ -55,7 +55,7 @@ const Orders = () => {
         {
             return <Tag color={'orange'}>{orderStatus}</Tag>
         }
-        if(orderStatus==='Declined')
+        if(orderStatus==='DECLINED_BY_RESTAURANT')
         {
             return <Tag color={'red'}>{orderStatus}</Tag>
         }

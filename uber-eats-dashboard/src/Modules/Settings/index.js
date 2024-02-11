@@ -1,6 +1,6 @@
 import { Form, Input,Card,Button, InputNumber, Result } from "antd";
 import { useState,useEffect } from "react";
-import GooglePlacesAutocomplete, {getLatLng,geocodeByAddress} from "react-google-places-autocomplete";
+import GooglePlacesAutocomplete, {getLatLng,geocodeByAddress,geocodeByLatLng} from "react-google-places-autocomplete";
 import { useAuthContext } from "../../Contexts/AuthContext";
 import axios from "axios";
 import apiRoutes from "../../apiRoutes";
@@ -31,25 +31,16 @@ const [lng,setLng] =  useState(Restaurant?.lng);
 const [minDeliveryTime,setMinDeliveryTime] =  useState(Restaurant?.minDeliveryTime);
 const [maxDeliveryTime,setMaxDeliveryTime] =  useState(Restaurant?.maxDeliveryTime);
 const [address,setAddress] =  useState(Restaurant?.address);
+const [dispAddress,setDispAddress] =  useState(Restaurant?.address);
 const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
-   /*  const [address, setAddress] = useState(null);
+ //  const [address, setAddress] = useState(null);
     const [coordinates,setCoordinates] = useState(null);
  
-    const getAddressLatLng = async (address) => {
-        setAddress(address);
-        const geocodedByAddress = await geocodeByAddress(address.label);
-        const latlng =  await getLatLng(geocodedByAddress[0]);
-        console.log(latlng);
-        setCoordinates(latlng)
-    } */
+   
     const onSubmit = async ({}) =>{
-        // console.log(name);
-        // console.log(lat);
-        // console.log(lng);
-        // console.log(deliveryFee);
-        // console.log(maxDeliveryTime);
-        // console.log(minDeliveryTime);
-        // console.log(address);
+        setLat(coordinates.lat);
+        setLng(coordinates.lng);
+        
         const formData = new FormData();
         formData.append("name",name);
         formData.append("lat",lat);
@@ -105,6 +96,7 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
     useEffect(()=>{
         if(Restaurant)
         {
+           
             if(Restaurant.imageSource!=="Temp")
             {
               setDisplayImage(Restaurant.imageSource)
@@ -118,7 +110,18 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
                
             }
     },[response])
-
+    
+    useEffect(()=>{
+        getAddressLatLng()
+    },[dispAddress])
+    const getAddressLatLng = async () => {
+        console.log(dispAddress)
+        setAddress(dispAddress.label);
+        const geocodedByAddress = await geocodeByAddress(dispAddress.label);
+        const latlng =  await getLatLng(geocodedByAddress[0]);
+        console.log(latlng);
+        setCoordinates(latlng)
+    }
 
     return(
         <div>
@@ -128,15 +131,21 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
             <Form.Item label="Restaurant Name" required>
                 <Input placeholder="Enter Restaurant name here" onChange={(e)=>{setName(e.target.value)}} value={name}/>
             </Form.Item>
-           
-            <Form.Item label="Latitude"  required>
+            <Form.Item label="Restaurant Address" required> 
+            <GooglePlacesAutocomplete apiKey="AIzaSyAfjdWuBgeCIzS1aOu3qQpvovbn3Sep008" 
+            selectProps={{
+                value:dispAddress,
+                onChange:setDispAddress,
+            }}/>
+            </Form.Item> 
+            {/* <Form.Item label="Latitude"  required>
                 <InputNumber  precision={2}
      step={0.01} onChange={(e)=>{setLat(e)}} value={lat} />
             </Form.Item>
             <Form.Item label="Longitude "  required>
                 <InputNumber  precision={2}
      step={0.01} onChange={(e)=>{setLng(e)}} value={lng}/>
-            </Form.Item>
+            </Form.Item> */}
             <Form.Item label="Delivery fee " required>
                 <InputNumber  precision={2}
      step={0.01} onChange={(e)=>{setDeliveryFee(e)}} value={deliveryFee}/>
@@ -154,23 +163,16 @@ const [deliveryFee,setDeliveryFee] =  useState(Restaurant?.deliveryFee);
                 <Input type="file" onChange={updateImage}  />
             </Form.Item>
            
-            <Form.Item label="Address " required>
-                <Input placeholder="Enter address here" onChange={(e)=>{setAddress(e.target.value)}} value={address}/>
-            </Form.Item>
+            
             </div>
-           {/*  <Form.Item label="Restaurant Address" required> 
-            <GooglePlacesAutocomplete apiKey="*******" 
-            selectProps={{
-                value:address,
-                onChange:setAddress,
-            }}/>
-            </Form.Item> */}
+          
             <div style={{width:'100%',float:"left"}}>
             <Form.Item >
                 <Button type='primary'htmlType='submit' >Submit</Button>
             </Form.Item>
             </div>
         </Form>
+        <span>{coordinates?.lat} - {coordinates?.lng}</span>
     </Card>
     <PopUp trigger={trigger} setTrigger={setTrigger}>
         <div style={{width:'65%',float:"left"}} >
