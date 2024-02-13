@@ -25,13 +25,20 @@ namespace UberEatsAPI.Controllers
         public ActionResult<APIResponse<Dish>> AddDish([FromForm]DishCustomIn model)
         {
             Restuarant restuarant = restuarantRepository.GetRestuarantById(model.RestuarantId);
-            string uniqueFileName = null;
-            string filePath = null;
+            string serverPath = null;
             if (model.Image != null)
             {
+                bool check = System.IO.Directory.Exists(Path.Combine(HostEnvironment.WebRootPath, $"Restuarants/{restuarant.name}/Display"));
+                if (!check)
+                {
+                    System.IO.Directory.CreateDirectory(Path.Combine(HostEnvironment.WebRootPath, $"Restuarants/{restuarant.name}/Display"));
+                }
+                string uniqueFileName = null;
+                string filePath = null;
                 string uploadsFolder = Path.Combine(HostEnvironment.WebRootPath, $"Restuarants/{restuarant.name}");
                 uniqueFileName = $"{Guid.NewGuid().ToString()}_{model.Image.FileName}";
                 filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                serverPath=Path.Combine($"Restuarants/{restuarant.name}", uniqueFileName);
                 model.Image.CopyTo(new FileStream(filePath, FileMode.Create));
             }
             Dish dish = new Dish()
@@ -43,7 +50,7 @@ namespace UberEatsAPI.Controllers
 
                 name = model.Name,
 
-                image = filePath
+                image = serverPath
             };
 
             

@@ -82,8 +82,8 @@ const OrderMapView = ({id}) =>{
             mapRef.current.animateToRegion({
                 latitude:driver?.lat,
                 longitude:driver?.lng,
-                latitudeDelta:0.007,
-                longitudeDelta:0.007
+                latitudeDelta:0.07,
+                longitudeDelta:0.07
           });
         }
       }
@@ -177,7 +177,13 @@ const OrderMapView = ({id}) =>{
     return (
         <View>
             <Text>Status : {order?.status || "loading"}</Text>
-            <MapView style={styles.map} ref={mapRef}>
+            <MapView style={styles.map} ref={mapRef}
+            initialRegion={{
+              latitude: driver.lat,
+              longitude: driver.lng,
+              latitudeDelta: 0.07,
+              longitudeDelta: 0.07,
+            }}>
             <MapViewDirections
           origin={{ latitude: driver.lat, longitude: driver.lng }}
           destination={

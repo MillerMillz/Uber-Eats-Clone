@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tZpb9qBZqwLb4rl7BBIBS5+YgjPwNQihd+Y2cjv7UBg=",
+  "Hash": "ylzy73CFSMsXqrYtN041agQwaEOo8WKO+EZ7449yidI=",
   "Source": "UberEatsAPI",
   "BasePath": "_content/UberEatsAPI",
   "Mode": "Default",
@@ -1460,6 +1460,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Restuarants\\KFC 626 Heinz Rd\\Zinger_Stacker.png"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC Kwanobuhle\\43b29a46-2e7a-4942-b408-b90f54d77474_kit.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC Kwanobuhle/43b29a46-2e7a-4942-b408-b90f54d77474_kit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC Kwanobuhle\\43b29a46-2e7a-4942-b408-b90f54d77474_kit.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\KFC Kwanobuhle\\7e9b378d-71eb-45d3-b4d5-4d2725e559eb_kit.jpg",
+      "SourceId": "UberEatsAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\",
+      "BasePath": "_content/UberEatsAPI",
+      "RelativePath": "Restuarants/KFC Kwanobuhle/7e9b378d-71eb-45d3-b4d5-4d2725e559eb_kit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Restuarants\\KFC Kwanobuhle\\7e9b378d-71eb-45d3-b4d5-4d2725e559eb_kit.jpg"
     },
     {
       "Identity": "C:\\Users\\millz\\Desktop\\UberEatsWithSignalRnLibman\\Uber Eats Clone\\UberEatsAPI\\UberEatsAPI\\wwwroot\\Restuarants\\Mc Donalds 55 Norman Lex Rd\\10pc McNuggets.jfif",

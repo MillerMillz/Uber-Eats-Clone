@@ -232,6 +232,7 @@ namespace UberEatsAPI.Controllers
                 CourierID=order.CourierID,
                 Id = order.Id,
                 Status = order.Status,
+                OrderTime=calcTimeDif(order.OrderTime),
                 Total = order.Total,
                 UserID = order.UserID,
                 Restuarant = restuarant
